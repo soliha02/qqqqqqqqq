@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+body{
+    background-color: bisque;
+}
+
+.comment{
+    width: 40%;
+    padding: 15px;
+    background-color: red;
+    border-radius: 30px;
+text-align: center;
+}
+.comment img{
+    width: 250px;
+    height: 200px;
+}
+.comment h2,h3,p{
+    margin: 10px auto;
+    color: white;
+}
+
+#box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
